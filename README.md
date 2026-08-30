@@ -1,16 +1,33 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**sczhou9/sczhou9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Zhou Shuchen
 
-Here are some ideas to get you started:
+### Embodied AI · Cross-Medium Robotics · Planning
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Building planning and autonomy methods for air–water unmanned systems.
+
+</div>
+
+---
+
+## Research focus
+
+- **Task and motion planning** — connecting high-level missions with executable motion.
+- **Hybrid dynamics and transitions** — air–water mode switching, interface crossing, and changing constraints.
+- **Energy-aware execution** — linking planning decisions to sensing, control, and vehicle limits.
+
+## Current direction
+
+> How can an embodied agent plan and act reliably when its vehicle crosses between air and water?
+
+## Toolkit
+
+`Python` `MATLAB` `C++` `ROS 2` `PX4`
+
+## Public project
+
+- [Agent Island](https://github.com/sczhou9/agent-island) — a macOS menu bar app for monitoring Claude Code, Codex, and Gemini CLI sessions.
+
+---
+
+*Research first. Build carefully. Test against the dynamics.*
