@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Air–water cross-medium autonomy</title>
+  <desc id="desc">A cross-medium robot moves from aerial flight through the air-water interface into underwater navigation, coupled by task planning, motion planning, and energy-aware execution.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12233d"/>
+      <stop offset="1" stop-color="#17506a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d6074"/>
+      <stop offset="1" stop-color="#071c32"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70e1f5"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#020817" flood-opacity=".45"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0 10 5 0 10z" fill="#8de7f2"/>
+    </marker>
+    <g id="vehicle" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-33 0 Q0-20 33 0 Q0 20-33 0Z" fill="#e7f9fc" stroke="#8de7f2" stroke-width="3"/>
+      <path d="M-12-7 8-7 18 0 8 7-12 7Z" fill="#17364c" stroke="#8de7f2" stroke-width="2"/>
+      <path d="M-22-7-40-22M-22 7-40 22M22-7 40-22M22 7 40 22" stroke="#e7f9fc" stroke-width="4"/>
+      <ellipse cx="-43" cy="-25" rx="14" ry="4" stroke="#ffd166" stroke-width="3"/>
+      <ellipse cx="-43" cy="25" rx="14" ry="4" stroke="#ffd166" stroke-width="3"/>
+      <ellipse cx="43" cy="-25" rx="14" ry="4" stroke="#ffd166" stroke-width="3"/>
+      <ellipse cx="43" cy="25" rx="14" ry="4" stroke="#ffd166" stroke-width="3"/>
+    </g>
+  </defs>
+
+  <clipPath id="frame"><rect width="1200" height="360" rx="28"/></clipPath>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="194" fill="url(#sky)"/>
+    <rect y="194" width="1200" height="166" fill="url(#water)"/>
+    <path d="M0 194 Q85 182 170 194T340 194T510 194T680 194T850 194T1020 194T1200 194" fill="none" stroke="#70e1f5" stroke-width="3" opacity=".9"/>
+    <path d="M0 203 Q85 191 170 203T340 203T510 203T680 203T850 203T1020 203T1200 203" fill="none" stroke="#b7f5fa" stroke-width="1.5" opacity=".35"/>
+
+    <g fill="#b7f5fa" opacity=".18">
+      <circle cx="915" cy="238" r="4"/><circle cx="945" cy="263" r="3"/><circle cx="1008" cy="232" r="5"/>
+      <circle cx="1065" cy="284" r="3"/><circle cx="1110" cy="245" r="4"/><circle cx="1142" cy="305" r="5"/>
+    </g>
+
+    <text x="64" y="58" fill="#f4fbff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="700" letter-spacing="1.5">CROSS-MEDIUM AUTONOMY</text>
+    <text x="66" y="85" fill="#b8dce8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" letter-spacing=".8">TASK  →  MOTION  →  ENERGY-AWARE EXECUTION</text>
+
+    <path d="M170 127 C345 104 450 118 575 177 S817 255 1035 262" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="9 10" marker-end="url(#arrow)"/>
+
+    <g transform="translate(205 122) scale(.82)" filter="url(#shadow)"><use href="#vehicle"/></g>
+    <g transform="translate(598 183) rotate(28) scale(.82)" filter="url(#shadow)"><use href="#vehicle"/></g>
+    <g transform="translate(965 255) rotate(5) scale(.82)" filter="url(#shadow)"><use href="#vehicle"/></g>
+
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+      <g transform="translate(64 286)">
+        <rect width="275" height="44" rx="12" fill="#081728" opacity=".72" stroke="#4a92aa"/>
+        <circle cx="24" cy="22" r="5" fill="#70e1f5"/>
+        <text x="42" y="20" fill="#f4fbff" font-size="14" font-weight="700" letter-spacing="1">AIR MODE</text>
+        <text x="42" y="36" fill="#9fc8d5" font-size="11">aerial dynamics &amp; planning</text>
+      </g>
+      <g transform="translate(462 286)">
+        <rect width="275" height="44" rx="12" fill="#081728" opacity=".72" stroke="#d4ad5c"/>
+        <circle cx="24" cy="22" r="5" fill="#ffd166"/>
+        <text x="42" y="20" fill="#f4fbff" font-size="14" font-weight="700" letter-spacing="1">INTERFACE CROSSING</text>
+        <text x="42" y="36" fill="#9fc8d5" font-size="11">mode transition &amp; feasibility</text>
+      </g>
+      <g transform="translate(860 286)">
+        <rect width="275" height="44" rx="12" fill="#081728" opacity=".72" stroke="#4a92aa"/>
+        <circle cx="24" cy="22" r="5" fill="#70e1f5"/>
+        <text x="42" y="20" fill="#f4fbff" font-size="14" font-weight="700" letter-spacing="1">UNDERWATER MODE</text>
+        <text x="42" y="36" fill="#9fc8d5" font-size="11">submerged dynamics &amp; planning</text>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#6fadc0" stroke-opacity=".35" stroke-width="2"/>
+</svg>
