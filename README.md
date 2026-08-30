@@ -12,7 +12,7 @@
   <img src="./assets/air-water-cross-medium.svg" alt="Air–water cross-medium autonomy across task planning, motion planning, learning and adaptation" width="100%">
 </p>
 
-<table>
+<table width="100%">
 <tr>
 <td align="center" width="33%"><strong>Task Planning</strong><br><sub>Mission goals and cross-medium decisions</sub></td>
 <td align="center" width="33%"><strong>Motion Planning</strong><br><sub>Hybrid dynamics and interface feasibility</sub></td>
