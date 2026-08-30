@@ -8,6 +8,10 @@
 
 </div>
 
+<p align="center">
+  <img src="./assets/air-water-cross-medium.svg" alt="Air–water cross-medium autonomy: aerial mode, interface crossing, and underwater mode" width="100%">
+</p>
+
 <table>
 <tr>
 <td align="center" width="33%"><strong>Task & Motion</strong><br><sub>Mission goals → executable motion</sub></td>
