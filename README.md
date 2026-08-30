@@ -9,14 +9,14 @@
 </div>
 
 <p align="center">
-  <img src="./assets/air-water-cross-medium.svg" alt="Air–water cross-medium autonomy: aerial mode, interface crossing, and underwater mode" width="100%">
+  <img src="./assets/air-water-cross-medium.svg" alt="Air–water cross-medium autonomy across task planning, motion planning, learning and adaptation" width="100%">
 </p>
 
 <table>
 <tr>
-<td align="center" width="33%"><strong>Task & Motion</strong><br><sub>Mission goals → executable motion</sub></td>
-<td align="center" width="33%"><strong>Hybrid Systems</strong><br><sub>Mode switching and interface crossing</sub></td>
-<td align="center" width="33%"><strong>Embodied Execution</strong><br><sub>Energy, sensing, control, and limits</sub></td>
+<td align="center" width="33%"><strong>Task Planning</strong><br><sub>Mission goals and cross-medium decisions</sub></td>
+<td align="center" width="33%"><strong>Motion Planning</strong><br><sub>Hybrid dynamics and interface feasibility</sub></td>
+<td align="center" width="33%"><strong>Learning & Adaptation</strong><br><sub>Models, policies, and feedback</sub></td>
 </tr>
 </table>
 
