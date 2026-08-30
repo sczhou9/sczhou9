@@ -2,21 +2,21 @@
 
 # Zhou Shuchen
 
-### Embodied AI · Cross-Medium Robotics · Planning
+**Embodied AI · Air–Water Robotics · Task & Motion Planning**
 
-Building planning and autonomy methods for air–water unmanned systems.
+<sub>Planning and autonomy for unmanned systems that move between air and water.</sub>
 
 </div>
 
----
+<table>
+<tr>
+<td align="center" width="33%"><strong>Task & Motion</strong><br><sub>Mission goals → executable motion</sub></td>
+<td align="center" width="33%"><strong>Hybrid Systems</strong><br><sub>Mode switching and interface crossing</sub></td>
+<td align="center" width="33%"><strong>Embodied Execution</strong><br><sub>Energy, sensing, control, and limits</sub></td>
+</tr>
+</table>
 
-## Research focus
-
-- **Task and motion planning** — connecting high-level missions with executable motion.
-- **Hybrid dynamics and transitions** — air–water mode switching, interface crossing, and changing constraints.
-- **Energy-aware execution** — linking planning decisions to sensing, control, and vehicle limits.
-
-## Current direction
+## Research question
 
 > How can an embodied agent plan and act reliably when its vehicle crosses between air and water?
 
@@ -24,10 +24,16 @@ Building planning and autonomy methods for air–water unmanned systems.
 
 `Python` `MATLAB` `C++` `ROS 2` `PX4`
 
-## Public project
+## Selected work
 
 - [Agent Island](https://github.com/sczhou9/agent-island) — a macOS menu bar app for monitoring Claude Code, Codex, and Gemini CLI sessions.
 
----
+## About
 
-*Research first. Build carefully. Test against the dynamics.*
+Exploring how intelligent systems can plan, adapt, and act across changing physical environments.
+
+<div align="center">
+
+*Research first · Build carefully · Test against the dynamics*
+
+</div>
